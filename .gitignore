@@ -5,10 +5,3 @@ setup/
 src/
 bs.spec
 bsinstaller.spec
-bsinstaller.build/
-bsinstaller.dist/
-nuitka-crash-report.xml
-bsinstaller.exe
-bs.exe
-bs.build/
-bs.dist/
