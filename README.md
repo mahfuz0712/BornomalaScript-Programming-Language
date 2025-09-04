@@ -21,7 +21,10 @@ BanglaScript is a lightweight scripting language that uses simple keywords to pe
 ## Installation
 To use BanglaScript, ensure you have bs installed on your system. go to release section and download the latest version.
 
-* Step 1: Download the latest release from the [Website](https://bangla-script.vercel.app/)
+
+* Step 1: Download the latest release from <a href="https://bangla-script.vercel.app/" target="_blank">Website</a>
+
+
 * Step 2: Double click the setup file and follow the installation instructions.
 ![](docs/1.png)
 ![](docs/2.png)
