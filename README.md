@@ -7,10 +7,9 @@ BanglaScript is a simple, beginner-friendly programming language designed to hel
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Installation](#installation)
-3. [Syntax](#syntax)
-4. [Running BanglaScript](#running-banglascript)
-5. [Examples](#examples)
-6. [Metadata](#metadata)
+3. [Running BanglaScript](#running-banglascript)
+4. [Examples](#examples)
+
 
 ---
 
