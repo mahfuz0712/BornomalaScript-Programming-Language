@@ -2,4 +2,5 @@
 build/
 dist/
 setup/
-bs.spech
+src/
+bs.spec
