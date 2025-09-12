@@ -5,3 +5,5 @@ setup/
 src/
 bs.spec
 commands.txt
+pyproject.toml
+ppb.exe
