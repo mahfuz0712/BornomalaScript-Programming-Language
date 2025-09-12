@@ -1,4 +1,4 @@
-.venv-window/
+.venv*/
 build/
 dist/
 setup/
