@@ -1,6 +1,6 @@
 # BornomalaScript Programming Language
 
-BornomalaScript is a simple, beginner-friendly programming language designed to help children write and execute scripts or program in a natural and intuitive way. This documentation will guide you through the basics of BornomalaScript, its syntax, and how to use the interpreter.
+BornomalaScript is a simple, beginner-friendly programming language designed to help children write and execute scripts or program in a natural and intuitive way. This documentation will guide you through the basics of BornomalaScript, its syntax, and how to use it.
 
 ---
 
@@ -14,39 +14,47 @@ BornomalaScript is a simple, beginner-friendly programming language designed to 
 ---
 
 ## Introduction
-BornomalaScript is a lightweight scripting language that uses simple keywords to perform operations. It is designed to be easy to learn and use, especially for beginners.
+BornomalaScript is a lightweight scripting language that uses simple keywords to perform operations. It is designed to be easy to learn and use, especially for kids.
 
 ---
 
 ## Installation
-To use BornomalaScript, ensure you have bs installed on your system. go to release section and download the latest version.
+To use BornomalaScript, ensure you have it's compiler installed on your system.
 
-
+### Windows Guide
 * Step 1: Download the latest release from <a href="https://bornomala-script.vercel.app/" target="_blank">Website</a>
 
 
 * Step 2: Double click the setup file and follow the installation instructions.
-![](docs/1.png)
-![](docs/2.png)
-![](docs/3.png) <hr>
-* Step 3: Open "C:\Program Files (x86)\Mohammad Mahfuz Rahman\BornomalaScript" and copy the path. <hr>
-![](docs/4.png) <hr>
-![](docs/5.png) <hr>
-![](docs/6.png) <hr>
-* Step 4: Open Environment Variables and add the copied path to the Path variable. <hr>
-![](docs/7.png) <hr>
-![](docs/8.png) <hr>
-![](docs/9.png) <hr>
-![](docs/10.png) <hr>
-![](docs/11.png) <hr>
-* Step 5: Open Command Prompt and type `bs --version`. If the installation was successful, you should see the BornomalaScript interpreter version. <hr>
+* Step 3: Open "C:\Program Files (x86)\Mohammad Mahfuz Rahman\BornomalaScript" and copy the path.
+* Step 4: Open Environment Variables and add the copied path to the Path variable. 
+* Step 5: Open Command Prompt and type `bs --version`. If the installation was successful, you should see the BornomalaScript compiler version. 
+* Step 6: To check the metadata of BornomalaScript, type `bs --metadata` in the command prompt. 
+* Step 7: To see all the available commands, type `bs --help` in the command prompt.
 
-* Step 6: To check the metadata of BornomalaScript, type `bs --metadata` in the command prompt. <hr>
+---
 
+### Linux Guide (Debian based distros only)
+* Step 1: Download the latest release from <a href="https://bornomala-script.vercel.app/" target="_blank">Website</a>
+
+* Step 2: Open the folder where the .deb file is downloaded
+* Step 3: Open terminal or console there and type the command below
+```bash
+dpkg -i file\to\.deb
+```
+* Step 4: Open terminal anywhere and type 
+```bash
+bs --version
+```
+If the installation was successful, you should see the BornomalaScript compiler version.
+* Step 6: To check the metadata of BornomalaScript, type `bs --metadata` in the command prompt.
 * Step 7: To see all the available commands, type `bs --help` in the command prompt.
 
 
----
+## VS Code Setup
+
+* Step 1: <a href="https://marketplace.visualstudio.com/items?itemName=mahfuz0712.bornomala-script-pack" target="_blank">Download the vs code extension</a> and install it
+
 
 
 ## Running BornomalaScript
@@ -65,7 +73,7 @@ bs main.bs
 ---
 
 ## Examples
-### Example 1: Basic Variable Assignment and Printing
+### Basic Variable Assignment and Printing
 **main.bs**:
 ```
 dhoro x = 5
@@ -76,7 +84,7 @@ lekho(x)
 5
 ```
 
-### Example 2: Printing Direct Values
+### Printing Direct Values
 **main.bs**:
 ```
 lekho(10)
@@ -85,3 +93,18 @@ lekho(10)
 ```
 10
 ```
+
+### Taking an input from user
+**main.bs**:
+```
+dhoro input = inputNao("Enter something: ")
+lekho("you entered ${input}")
+```
+**Output**:
+```
+you entered "whatever is input"
+```
+
+for further details check documentation at <a href="https://bornomala-script.vercel.app/" target="_blank">BornomalaScript Official Website</a>
+
+Happy Coding
