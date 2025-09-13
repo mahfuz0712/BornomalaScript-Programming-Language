@@ -28,9 +28,21 @@ To use BornomalaScript, ensure you have it's compiler installed on your system.
 * Step 2: Double click the setup file and follow the installation instructions.
 * Step 3: Open "C:\Program Files (x86)\Mohammad Mahfuz Rahman\BornomalaScript" and copy the path.
 * Step 4: Open Environment Variables and add the copied path to the Path variable. 
-* Step 5: Open Command Prompt and type `bs --version`. If the installation was successful, you should see the BornomalaScript compiler version. 
-* Step 6: To check the metadata of BornomalaScript, type `bs --metadata` in the command prompt. 
-* Step 7: To see all the available commands, type `bs --help` in the command prompt.
+* Step 5: Open Command Prompt and type 
+```bash
+bs --version
+```
+If the installation was successful, you should see the BornomalaScript compiler version. 
+* Step 6: To check the metadata of BornomalaScript, type 
+```bash
+bs --metadata
+``` 
+in the command prompt. 
+* Step 7: To see all the available commands, type 
+```bash
+bs --help
+``` 
+in the command prompt.
 
 ---
 
@@ -47,8 +59,16 @@ dpkg -i file\to\.deb
 bs --version
 ```
 If the installation was successful, you should see the BornomalaScript compiler version.
-* Step 6: To check the metadata of BornomalaScript, type `bs --metadata` in the command prompt.
-* Step 7: To see all the available commands, type `bs --help` in the command prompt.
+* Step 6: To check the metadata of BornomalaScript, type 
+```bash
+bs --metadata
+```
+in the terminal.
+* Step 7: To see all the available commands, type 
+```bash
+bs --help
+```
+in the terminal.
 
 
 ## VS Code Setup
