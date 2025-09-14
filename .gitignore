@@ -4,6 +4,6 @@ dist/
 setup/
 src/
 bs.spec
-commands.txt
+ppb
 ppb.exe
 pyproject.toml
